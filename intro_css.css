@@ -1,0 +1,107 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(162, 162, 197);
+}
+
+title {
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(148, 135, 243);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+    background-color: aqua;
+
+}
+
+#loginReset {
+    display: flex;
+    gap: 40px;
+    background-color: rgb(107, 90, 238);
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    padding-right: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+body {
+    background-color: #6faaf1;
+    font-family: Arial, sans-serif;
+    align-self: center;
+    margin: 0;
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 1.0s ease;
+}
+
+button[type="submit"]:active {
+    background-color: purple;
+}
+
+button[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 1.0s ease;
+}
+
+button[type="reset"]:active {
+    background-color: purple;
+}
+
+button[type="login"] {
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 1.0s ease;
+}
+
+button[type="login"]:active {
+    background-color: purple;
+}
+
+/* br{
+    margin-bottom: 10px;
+    align-items: center
+} */

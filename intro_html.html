@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="intro_css.css">
+    <title>Form Validation</title>
+</head>
+<header>
+    <h1>Form Validation</h1>
+</header>
+
+<body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#login">Login</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Welcome to the Form Validation!</h2>
+        <p>This tool allows you to validate your form inputs for various insights. Please fill out the form below to get
+            started.</p>
+        <form id="form" action="" method="">
+            <p id="message"></p>
+            <Label for="name">Name:</Label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <Label for="lname">Last Name:</Label> <input type="text" id="lname" name="lname"
+                placeholder="Enter your last name">
+            <Label for="phone">Phone Number:</Label> <input type="number" id="phone" name="phone"
+                placeholder="Enter your phone number">
+            <Label for="email">Email:</Label> <input type="email" id="email" name="email"
+                placeholder="Enter your email">
+            <label for="age">D.O.B:</Label> <input type="date" id="age" name="age"
+                placeholder="Enter your date of birth">
+            <Label for="password">Password:</Label> <input type="password" id="password" name="password"
+                placeholder="Enter your password">
+            <button type="submit" value="Submit">Submit</button>
+            <div id="loginReset">
+                <button type="reset" value="Reset">Reset</button>
+                <button type="Login" value="Validate">Login</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2026 Form Validation. All rights reserved.</p>
+        <p>Made by Benzz.  <a href="https://example.com" target="_blank">Form validity</a></p>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
